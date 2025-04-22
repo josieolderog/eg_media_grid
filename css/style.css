@@ -47,7 +47,7 @@ a.logo:hover {
 }
 a.logo > img {
   width: 122px;
-  height: 46px;
+  height: 100px;
 }
 .topnav a {
   text-decoration: none; 
@@ -184,6 +184,7 @@ aside p {
 }
 .card-header {
   position: relative;
+  min-height: 22rem;
 }
 .card-header > img {
   border-radius: 7px 7px 0 0;
