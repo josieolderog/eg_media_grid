@@ -1,11 +1,11 @@
 :root {
-  --dark: #13111f;
-  --midark: #515153;
-  --dim: #494848;
-  --color: #e5990c;
-  --mid: #ADAAAA;
-  --light: #C9C3C3;
-  --milight: #E5E1E1;
+  --dark: #352001;
+  --midark: #82590e;
+  --dim: #a7602e;
+  --color: #f66f1b;
+  --mid: #f29053;
+  --light: #f0af86;
+  --milight: #ffe7c9;
   --white: #FAF3F3;
   --std: all 250ms ease-in-out;
   --long: all 500ms ease-in-out;
@@ -21,8 +21,10 @@ body {
 ------------------*/
 .topnav { 
   background-color: var(--dark);
+  font-family: Poppins, sans-serif;
   padding: 1em 4rem;
   display: flex;
+  color: #f3f3ab;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
@@ -69,21 +71,19 @@ a:hover {
   padding: 0;
   padding-bottom: 0;
   margin: 0;
+  opacity: 100%;
 }
 .slide img {
   box-shadow: 0 1px 8px rgba(0,0,0,.5);
 }
 .figcaption {
   position: absolute;
+  font-family: Poppins, sans-serif;
   width: 100%;
   text-align: center;
   top: 50%;
   transform: translateY(-50%);
-  color: var(--white);
-  text-shadow: -1px -1px 0px rgba(0,0,0,0.8),
-               1px -1px 0px rgba(0,0,0,0.8),
-               -1px 1px 0px rgba(0,0,0,0.8),
-               1px 1px 0px rgba(0,0,0,0.8);
+  color: var(--milight));
 }
 .figcaption h1 {
   font-size: 7.2rem;
@@ -192,7 +192,7 @@ aside p {
   background-color: rgba(0,0,0,0.4);
 }
 .card-header .material-symbols-outlined {
-  font-size: 8rem;
+  font-size: 2rem;
   font-variation-settings: 'wght' 300;
 }
 .card-footer {
@@ -215,7 +215,7 @@ aside p {
   color: var(--dark);
 }
 .card-footer .material-symbols-outlined {
-  font-size: 5rem;
+  font-size: 2rem;
   font-variation-settings: 'wght' 200;
 }
 .actions {
@@ -283,6 +283,114 @@ aside p {
     transform:scale(2.5);
   }
 }
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 /*-- Now for the min-width queries --*/
 @media screen and (min-width: 550px) {
   main{grid-template-columns:repeat(2, 1fr);}
