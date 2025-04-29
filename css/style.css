@@ -24,7 +24,6 @@ body {
   font-family: Poppins, sans-serif;
   padding: 1em 4rem;
   display: flex;
-  color: #f3f3ab;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
@@ -83,7 +82,7 @@ a:hover {
   text-align: center;
   top: 50%;
   transform: translateY(-50%);
-  color: var(--milight));
+  color: var(--milight);
 }
 .figcaption h1 {
   font-size: 7.2rem;
@@ -129,6 +128,10 @@ button {
   background: none;
   border: 0;
   transition: var(--std);
+}
+button img {
+  width: 32px;
+  height: auto;
 }
 button:hover {
   cursor: pointer;

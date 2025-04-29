@@ -1,5 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8.5 12.5L10.5 14.5L15.5 9.5" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M7 3.33782C8.47087 2.48697 10.1786 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 10.1786 2.48697 8.47087 3.33782 7" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 716.67 716.67">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #1c274c;
+        stroke-linecap: round;
+        stroke-width: 50px;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 133.33;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M241.67,375l66.67,66.67,166.67-166.67"/>
+  <path class="cls-2" d="M191.67,69.59c49.03-28.36,105.95-44.59,166.67-44.59,184.09,0,333.33,149.24,333.33,333.33s-149.24,333.33-333.33,333.33S25,542.43,25,358.33c0-60.71,16.23-117.64,44.59-166.67"/>
 </svg>
